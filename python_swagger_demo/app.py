@@ -8,7 +8,7 @@ from python_swagger_demo.api.restplus import api
 from python_swagger_demo.database import db
 
 app = Flask(__name__)
-logging.config.fileConfig('../logging.conf')
+logging.config.fileConfig('./logging.conf')
 log = logging.getLogger(__name__)
 
 
